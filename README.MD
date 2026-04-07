@@ -8,7 +8,7 @@
     └───Parent
         └───00_vpc
 
-For folder structure -> cmd -> tree -> copy and pste it where ever you want.
+For folder structure -> cmd -> tree -> copy and paste it where ever you want.
 
 Parent -> From where You can Invoke/Call the Module by passing the input variables.
 Child -> From where actual resource cfreation logioc was implemented.
@@ -18,7 +18,7 @@ Priority: CLI > Input > variables.tf
 
 
 
-***********************************************************************************************************************************************
+###############################################################################################################################################
                                                             VPC-Virtual Private Network
 1.An Isolated Network provided in cloud where we run our application. It exists inside a region (like us-east-1) and span multiple availability zones.
 
@@ -38,4 +38,5 @@ Priority: CLI > Input > variables.tf
     A boolean flag to enable/disable DNS hostnames in the VPC. Defaults false.
 
 6.
+
 
